@@ -1,0 +1,4 @@
+<% if params.keys.include?("operation") %>
+  <%answer = @number1.send(@operation, @number2)%>
+  <%=answer%>
+<% end %>
